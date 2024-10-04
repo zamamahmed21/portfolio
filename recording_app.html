@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Recording App</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+    <!-- Navbar 
+    <header id="header">
+        <nav class="navbar container">
+            <div class="logo-container" style="display: flex; align-items: center;">
+                <img src="images/profilepic.jpg" alt="Zamam Ahmed" style="width: 50px; height: 50px; border-radius: 50%; margin-right: 10px;">
+                <span class="logo" href="/home.html">Zamam Ahmed</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#gig">Gig</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+-->
+    <!-- Project Details Section -->
+
+    <head>
+        <link rel="stylesheet" href="styles.css">
+
+    <body>
+        <section class="sectiona">
+            <div class="container" style="text-align: left;">
+                <h2 class="section-title">Recording App</h2>
+                <img src="images/recording app.png" alt="PDF Invoice Generator" >
+                <h3>Problem Statement :</h3>
+                <p>The project aims to develop a user-friendly desktop application that records both system and
+                    microphone audio simultaneously on macOS, while allowing users to run custom scripts on the recorded
+                    audio.</p>
+
+                <h3>Technologies Used</h3>
+                <ul>
+                    <li>Python</li>
+                    <li>PySide2</li>
+                    <li>BlackHole&nbsp;&nbsp;&nbsp;<span style="color: red;">(for audio rerouting on macOS)</span></li>
+                    <li>Audio MIDI Setup&nbsp;&nbsp;&nbsp;<span style="color: red;">(for configuring internal and external audio sources)</span></li>
+                    <li>FFmpeg&nbsp;&nbsp;&nbsp;<span style="color: red;">(for saving audio in different formats)</span></li>
+                </ul>
+
+                <h3>Key Features:</h3>
+                <ul>
+                    <li> Record both internal system audio and external microphone audio simultaneously on macOS.</li>
+                    <li> Execute user-provided scripts on the recorded audio.</li>
+                    <li> Save audio in WAV, M4P, and MP3 formats.</li>
+                    <li> Automatically configure BlackHole and Audio MIDI Setup for seamless audio recording.</li>
+                    <li> Undo all audio routing configurations when the app is closed.</li>
+                </ul>
+
+                <h3>Challenges:</h3>
+                <p>In macOS, recording system audio is more complex compared to Windows due to security restrictions.
+                    Granting permissions and setting up internal audio recording required additional configuration
+                    through external apps.</p>
+
+                <h3>Solution:</h3>
+                <p>To overcome this challenge, I developed an automated script that installs BlackHole (an audio
+                    rerouting tool), configures a multi-output device in Audio MIDI Setup, and grants necessary
+                    permissions for internal and external audio recording. This script runs during the app setup,
+                    ensuring the user doesn’t need to perform any manual configurations. The script also reverts all
+                    settings when the app is closed.</p>
+
+                <h3>Outcome:</h3>
+                <p>Users were able to run the application without any additional effort, successfully record both
+                    internal and external audio, and save the output in multiple formats (WAV, M4P, MP3). The app also
+                    allows users to run their own scripts on the audio and displays the results of those scripts within
+                    the application.</p>
+
+        </section>
+        <!--
+        <section id="gig" class="section bg-light" >
+            <div class="container">
+                <h2 class="section-title" style="color: white; ">My Fiverr Gigs</h2>
+                <div class="fiverr-gigs-grid">
+                  
+                    <div class="fiverr-gig-item">
+                        <a href="https://www.fiverr.com/yourprofile1" target="_blank" class="fiverr-gig-link">
+                            <div class="fiverr-gig-image" style="background-image: url('images/abc.png');">
+                            </div>
+                            <span class="fiverr-gig-name">I Will Create Your Desktop App</span>
+    
+                        </a>
+                    </div>
+                -->
+        <!-- Gig 2 -->
+        <!--
+                    <div class="fiverr-gig-item">
+                        <a href="https://www.fiverr.com/yourprofile2" target="_blank" class="fiverr-gig-link">
+                            <div class="fiverr-gig-image" style="background-image: url('path_to_your_second_fiverr_gig_image.jpg');">
+                                <span class="fiverr-gig-name">Fiverr Gig 2</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+      
+        </section>
+      -->
+
+
+        <!-- Social Media Section 
+        <section id="social-media" class="section ">
+            <div class="container">
+                <h2 class="section-title">Connect with Me</h2>
+                <p>I'm always open to discussing your projects and bring ideas to life. Let's work together!</p>
+
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/zamamahmed21/" target="_blank">
+                        <img src="images\linkedin.png" alt="LinkedIn" style="width: 30px; height: 30px;">
+                    </a>
+                    <a href="https://www.instagram.com/yourprofile" target="_blank">
+                        <img src="images\instagram (1).png" alt="Instagram" style="width: 30px; height: 30px;">
+                    </a>
+                    <a href="https://www.facebook.com/zamamahmed22/" target="_blank">
+                        <img src="images\facebook.png" alt="Facebook" style="width: 30px; height: 30px;">
+                    </a>
+                       </div>
+            </div>
+        </section>
+    
+    
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Zamam Ahmed. All rights reserved.</p>
+        </div>
+    </footer>
+-->
+    </body>
+
+</html>

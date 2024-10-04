@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Sleep Scheduler</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <!-- Project Details Section -->
+    <section class="sectiona">
+        <div class="container" style="text-align: left;">
+            <h2 class="section-title">Sleep Scheduler</h2>
+            <img src="images/sleep schedular.png" alt="Sleep Scheduler">
+            <h3>Problem Statement :</h3>
+            <p>The client needed an easy-to-use desktop application to automatically schedule and put their PC into sleep mode at specific dates and times. The application needed to offer a user-friendly interface for scheduling tasks and operate reliably in the background without requiring constant user interaction.</p>
+
+            <h3>Technologies Used</h3>
+            <ul>
+                <li>Python</li>
+                <li>PySide&nbsp;&nbsp;&nbsp;<span style="color: red;"> (for creating the desktop interface)</span></li>
+                <li>Task Scheduler&nbsp;&nbsp;&nbsp;<span style="color: red;"> (to manage sleep timing on Windows OS)</span></li>
+                <li>DateTime Module&nbsp;&nbsp;&nbsp;<span style="color: red;"> (to manage dates and time schedules)</span></li>
+            </ul>
+
+            <h3>Key Features:</h3>
+            <ul>
+                <li> Allows users to set specific dates and times for the PC to enter sleep mode automatically.</li>
+                <li> Provides an intuitive and simple-to-use interface for scheduling sleep events.</li>
+                <li> Supports both one-time and recurring schedules for daily/weekly system sleep tasks.</li>
+                <li> Runs in the background to avoid disrupting the user's workflow.</li>
+                <li> Offers a system tray icon to monitor and modify schedules without reopening the application.</li>
+            </ul>
+
+            <h3>Challenges:</h3>
+            <p>The biggest challenge was ensuring that the application could handle background tasks effectively while keeping system resources low. Additionally, providing precise scheduling and ensuring compatibility with different Windows versions was key.</p>
+
+            <h3>Solution:</h3>
+            <p>I used Python and PySide to create a lightweight desktop application with a clean interface. The Windows Task Scheduler was integrated using Python's `subprocess` module to manage background tasks. To allow the app to operate without user interaction, I designed it to run as a background process with a system tray icon for easy access. The DateTime module was used for accurate time-based task scheduling.</p>
+
+            <h3>Outcome:</h3>
+            <p>The application successfully automates PC sleep schedules based on user-defined times and dates, providing a reliable solution for users who want to save power or maintain a regular work schedule. The client was satisfied with the ease of use and performance of the Sleep Scheduler app.</p>
+        </div>
+    </section>
+
+</body>
+</html>

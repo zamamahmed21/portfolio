@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Zamam Ahmed - Developer Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <header id="header">
+        <nav class="navbar container">
+            <div class="logo-container" style="display: flex; align-items: center;">
+                <img src="images/profilepic.jpg" alt="Zamam Ahmed"
+                    style="width: 50px; height: 50px; border-radius: 50%; margin-right: 10px;">
+                <h1 class="logo" href="home.html" >Zamam Ahmed</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#gig">Gig</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="hero-overlay"></div> <!-- Overlay div -->
+        <div class="container">
+            <h2 class="hero-title">Hi, I'm Zamam Ahmed</h2>
+            <p class="hero-subtitle">
+                <span id="role" class="role">Python Developer</span> <!-- Single role span -->
+            </p>
+            <a href="#work" class="btn">Explore My Work</a>
+        </div>
+    </section>
+    <script src="index.js"></script>
+
+
+
+
+
+
+
+
+
+    <!-- About Me Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <p class="about-description">I am a Python developer specializing in creating high-performance desktop applications using PySide. With a focus on user-friendly design and efficient code, I have helped businesses optimize their workflows and build innovative tools. In addition to my expertise in desktop applications, I am also deeply interested in data science and its
+                 potential to drive insights and decision-making through data analysis.</p>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title" style="color: aliceblue;">Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-item">
+                    <h3>Python</h3>
+                    <p>Expert in Python, with experience in building complex applications & data cleaning.</p>
+                </div>
+                <div class="skill-item">
+                    <h3>PySide</h3>
+                    <p>Proficient in PySide for developing desktop applications with responsive interfaces.</p>
+                </div>
+                <div class="skill-item">
+                    <h3>Database Management</h3>
+                    <p>Experience in working with SQL and SQLite to handle data.</p>
+                </div>
+                <div class="skill-item">
+                    <h3>Git & Version Control</h3>
+                    <p>Strong understanding of Git, version control systems, and collaboration workflows.</p>
+                </div>
+                <div class="skill-item">
+                    <h3>HTML, CSS & JavaScript</h3>
+                    <p>Proficient in front-end development, creating responsive web pages with HTML, CSS, and Basic JavaScript.</p>
+                </div>
+                <div class="skill-item">
+                    <h3>Power BI</h3>
+                    <p>Skilled in Power BI for data visualization, reporting, and creating interactive dashboards.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Work Section -->
+<section id="work" class="section">
+    <div class="container">
+        <h2 class="section-title">My Work</h2>
+
+        <div class="work-grid">
+            <!-- Work Item 1 -->
+            <a href="javascript:void(0);" onclick="handleWorkClick(event, 'pdf_inovice_gen.html')" class="work-item">
+                <div class="work-background"
+                    style="background-image: url('images/PDF_Invoice_gen.png'); width: auto; height: 250px; background-size: cover; background-position: center;">
+                </div>
+                <h3>PDF Invoice Generator</h3>
+
+            </a>
+
+        
+            <a href="javascript:void(0);" onclick="handleWorkClick(event, 'browser_launcher.html')" class="work-item">
+                <div class="work-background" style="background-image: url('images/browserlauncher.png'); width: auto; height: 250px; background-size: cover; background-position: center;">
+                </div>
+                <h3>Multiple Screen Browser Launcher</h3>
+
+            </a>
+
+             <!-- Work Item 3 -->
+             <a href="javascript:void(0);" onclick="handleWorkClick(event, 'sleep_schedular.html')" class="work-item">
+                <div class="work-background" style="background-image: url('images/sleep schedular.png'); width: auto; height: 250px; background-size: cover; background-position: center;">
+                </div>
+                <h3>Sleep Schedular</h3>
+
+            </a>
+            <a href="javascript:void(0);" onclick="handleWorkClick(event, 'recording_app.html')" class="work-item">
+                <div class="work-background" style="background-image: url('images/recording app.png'); width: auto; height: 250px; background-size: contain; background-position: center; background-repeat: no-repeat;">
+                </div>
+                <h3>Recording App</h3>
+
+            </a>
+            
+            <a href="javascript:void(0);" onclick="handleWorkClick(event, 'chat_bot.html')" class="work-item">
+                <div class="work-background" style="background-image: url('images/healthcare chatbox.png'); width: auto; height: 250px; background-size: contain; background-position: center; background-repeat: no-repeat;">
+                </div>
+                <h3>Health Care Chatbot</h3>
+
+            </a>
+            <a href="javascript:void(0);" onclick="handleWorkClick(event, 'salary_survey_BI.html')" class="work-item">
+                <div class="work-background" style="background-image: url('images/powerBI/salary_survey_1.png'); width: auto; height: 250px; background-size: contain; background-position: center; background-repeat: no-repeat;">
+                </div>
+                <h3>Salary Survey (Python & Power BI)</h3>
+            </a>   
+            
+            
+          
+        </div>
+    </div>
+</section>
+
+<section id="dynamic-content" class="section" style="display: none;">
+    <div class="container">
+        <!-- Top close button -->
+        <div style="display: flex; justify-content: flex-end;">
+            <button onclick="closeWork()" class="close-btn">×</button>
+        </div>
+
+        <!-- Dynamic content area -->
+        <div id="work-content"></div>
+
+        <!-- Bottom close button -->
+        <div style="display: flex; justify-content: flex-end; margin-top: 20px;">
+            <button onclick="closeWork()" class="close-btn">×</button>
+        </div>
+    </div>
+</section>
+
+    <!-- Fiverr Gig Section -->
+    <section id="gig" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title" style="color: white; ">My Fiverr Gigs</h2>
+            <div class="fiverr-gigs-grid">
+                <!-- Gig 1 -->
+                <div class="fiverr-gig-item">
+                    <a href="https://www.fiverr.com/s/m57ZwgN" target="_blank" class="fiverr-gig-link">
+                        <div class="fiverr-gig-image" style="background-image: url('images/abc.png');">
+                        </div>
+                        <span class="fiverr-gig-name" href="https://www.fiverr.com/s/m57ZwgN">I'll Build Custom Apps Just for You!</span>
+
+                    </a>
+                </div>
+                <!-- Put this code anywhere in the body of your page where you want the badge to show up. -->
+
+               
+                
+                
+
+                <!-- Gig 2 -->
+                <!--
+                <div class="fiverr-gig-item">
+                    <a href="https://www.fiverr.com/yourprofile2" target="_blank" class="fiverr-gig-link">
+                        <div class="fiverr-gig-image" style="background-image: url('path_to_your_second_fiverr_gig_image.jpg');">
+                            <span class="fiverr-gig-name">Fiverr Gig 2</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    -->
+    </section>
+
+    <!-- Contact Section 
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title">Contact Me</h2>
+            <p>I'm always open to discussing your projects and bringing ideas to life. Let's work together!</p>
+            <form class="contact-form">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+-->
+    <!-- Social Media Section -->
+    <section id="social-media" class="section ">
+        <div class="container">
+            <h2 class="section-title">Connect with Me</h2>
+
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/zamamahmed21/" target="_blank">
+                    <img src="images\linkedin.png" alt="LinkedIn" style="width: 30px; height: 30px;">
+                </a>
+                <a href="https://www.instagram.com/yourprofile" target="_blank">
+                    <img src="images\instagram (1).png" alt="Instagram" style="width: 30px; height: 30px;">
+                </a>
+                <a href="https://www.facebook.com/zamamahmed22/" target="_blank">
+                    <img src="images\facebook.png" alt="Facebook" style="width: 30px; height: 30px;">
+                </a>
+                <a href="mailto:zamamahmed21@gmail.com" target="_blank">
+                    <img src="images\gmail_720277.png" alt="Gmail" style="width: 30px; height: 30px;">
+                </a>
+                   </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Zamam Ahmed. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

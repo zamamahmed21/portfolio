@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>PDF Invoice Generator</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <!-- Navbar 
+    <header id="header">
+        <nav class="navbar container">
+            <div class="logo-container" style="display: flex; align-items: center;">
+                <img src="images/profilepic.jpg" alt="Zamam Ahmed" style="width: 50px; height: 50px; border-radius: 50%; margin-right: 10px;">
+                <span class="logo" href="/home.html">Zamam Ahmed</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#gig">Gig</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+-->
+    <!-- Project Details Section -->
+    <head>
+        <link rel="stylesheet" href="styles.css"> 
+    
+    <body>
+        <section class="sectiona">
+            <div class="container" style="text-align: left;">
+                <h2 class="section-title">PDF Invoice Generator</h2>
+                <img src="images\PDF_Invoice_gen.png" alt="PDF Invoice Generator">
+                <h3>Problem Statement :</h3>
+                <p>The project aims to develop a user-friendly desktop application that simplifies invoice creation, customization, and management with features like input validation, PDF generation, and invoice history tracking.</p>
+    
+                <h3>Technologies Used</h3>
+                <ul>
+                    <li>Python</li>
+                    <li>PySide</li>
+                    <li>fpdf&nbsp;&nbsp;&nbsp;<span style="color: red;">(Python library for generating and manipulating PDF documents programmatically.)</span></li> 
+                    <li>pdf2image&nbsp;&nbsp;&nbsp;<span style="color: red;">(Python library that converts PDF documents into images and display of PDF content as image files.)</span></li>
+                    <li>XML&nbsp;&nbsp;&nbsp;<span style="color: red;">(A flexible markup language used for structuring, storing, and transporting data in a human-readable format.)</span></li>
+                </ul>
+    
+                <h3>Key Features:</h3>
+                <ul>
+                    <li> Users can input comprehensive details for each invoice and add items as needed.</li>  
+                    <li> Option to choose between two different PDF invoice templates for customization.</li>  
+                    <li>Users can view an updated image preview of the invoice before saving it.</li>  
+                    <li>Users can save up to five previous invoices for easy access and reuse at any time.</li>
+                </ul>
+    
+                <h3>Challenges:</h3>
+                <p>Displaying the preview of the pdf into the app.</p>
+    
+                <h3>Solution:</h3>
+                <p>Since displaying a PDF directly in a PySide application is not feasible, I implemented a solution to convert the PDF into an image first. This conversion allows the PDF pages to be rendered as images, which can then be displayed in the application. Specifically, I used the 'pdf2image' library to convert the PDF into an image format. Once converted, the image is set to a QLabel within the app, enabling users to visually preview the invoice before saving it. This approach enhances the user experience by providing a clear and accurate representation of the invoice.</p>
+    
+                <h3>Outcome:</h3>
+                <p>Allows users to effortlessly enter details, view a preview before generating the invoice, and conveniently access previously saved history for easy retrieval.</p>
+            </div>
+            <!-- Put this code anywhere in the body of your page where you want the badge to show up. -->
+<!--
+<section style="max-width: 800px; margin: auto; border: 1px solid #698EB8; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); background-color: #f9f9f9;">
+    <div itemscope itemtype="http://schema.org/Person" class="fiverr-seller-widget" style="display: flex; flex-direction: row; align-items: center; padding: 20px;">
+        <a itemprop="url" href="https://www.fiverr.com/zamamahmed21" rel="nofollow" target="_blank" style="text-decoration: none; display: flex; width: 100%;">
+            <div class="fiverr-seller-content" itemprop="contentURL" style="display: none;"></div>
+            
+            <div itemscope itemtype="http://schema.org/Organization" style="flex-shrink: 0; margin-right: 20px;">
+                <img src="images/fiver_icon.png" alt="Fiverr Logo" style="width: 80px; height: 80px;">
+            </div>
+
+            <div style="flex-grow: 1;">
+                <div itemprop="jobtitle" style="font-size: 14px; color: #888; margin-top: 5px;">Seller</div>
+                
+                <div itemprop="description" style="font-size: 15px; margin-top: 10px; color: #555;">
+                    Hello! I’m Zamam Ahmed, a Python Software Developer. My passion is to help businesses bring their ideas to life through efficient and elegant software solutions. If you’re looking for a custom-built, automated, and highly functional desktop application with excellent code quality, I’m your go-to developer! I manage projects from start to finish, ensuring complete satisfaction. Contact me today!
+                </div>
+            </div>
+        </a>
+    </div>
+    
+    <script id="fiverr-seller-widget-script" src="https://widgets.fiverr.com/api/v1/seller/zamamahmed21?widget_id=f5ae927c-9536-47e4-8cc4-21242fa2ce1c" data-config='{"category_name":"Programming & Tech"}' async="true" defer="true"></script>
+
+    <div class="cta-section" style="text-align: center; margin-top: 10px; padding: 21px;">
+        <p style="font-size: 18px; margin-bottom: 10px; color: #333;">Let’s collaborate about how I can develop solutions to simplify your tasks.</p>
+        <a href="https://www.fiverr.com/zamamahmed21" target="_blank" class="cta-button" style="padding: 10px 20px; background-color: #66BB6A; color: white; border: none; border-radius: 5px; text-decoration: none; font-size: 16px; transition: background-color 0.3s; display: inline-block;">
+            Let's Discuss
+        </a>
+    </div>
+</section>
+-->
+        </section>
+      
+<!--
+        <section id="gig" class="section bg-light" >
+            <div class="container">
+                <h2 class="section-title" style="color: white; ">My Fiverr Gigs</h2>
+                <div class="fiverr-gigs-grid">
+                  
+                    <div class="fiverr-gig-item">
+                        <a href="https://www.fiverr.com/yourprofile1" target="_blank" class="fiverr-gig-link">
+                            <div class="fiverr-gig-image" style="background-image: url('images/abc.png');">
+                            </div>
+                            <span class="fiverr-gig-name">I Will Create Your Desktop App</span>
+    
+                        </a>
+                    </div>
+                -->
+                    <!-- Gig 2 -->
+                  <!--
+                    <div class="fiverr-gig-item">
+                        <a href="https://www.fiverr.com/yourprofile2" target="_blank" class="fiverr-gig-link">
+                            <div class="fiverr-gig-image" style="background-image: url('path_to_your_second_fiverr_gig_image.jpg');">
+                                <span class="fiverr-gig-name">Fiverr Gig 2</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+      
+        </section>
+      -->
+        
+    
+        <!-- Social Media Section 
+        <section id="social-media" class="section ">
+            <div class="container">
+                <h2 class="section-title">Connect with Me</h2>
+                <p>I'm always open to discussing your projects and bring ideas to life. Let's work together!</p>
+
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/zamamahmed21/" target="_blank">
+                        <img src="images\linkedin.png" alt="LinkedIn" style="width: 30px; height: 30px;">
+                    </a>
+                    <a href="https://www.instagram.com/yourprofile" target="_blank">
+                        <img src="images\instagram (1).png" alt="Instagram" style="width: 30px; height: 30px;">
+                    </a>
+                    <a href="https://www.facebook.com/zamamahmed22/" target="_blank">
+                        <img src="images\facebook.png" alt="Facebook" style="width: 30px; height: 30px;">
+                    </a>
+                       </div>
+            </div>
+        </section>
+    
+    
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Zamam Ahmed. All rights reserved.</p>
+        </div>
+    </footer>
+-->
+</body>
+</html>

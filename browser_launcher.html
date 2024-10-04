@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Browser Launcher</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+   
+    <head>
+        <link rel="stylesheet" href="styles.css"> 
+    
+    <body>
+        <section class="sectiona">
+            <div class="container" style="text-align: left;">
+                <h2 class="section-title">Full Screen Browser Launcher</h2>
+                <img src="images/browserlauncher2.png" alt="PDF Invoice Generator">
+                <div>
+                    <h3>Problem Statement :</h3>
+                    <p>The project aims to develop a user-friendly desktop application that simplifies the process of opening multiple URLs on different external screens with options like kiosk mode, full screen, or standard mode, and auto-launching at startup based on user settings.</p>
+                
+                    <h3>Technologies Used</h3>
+                    <ul>
+                        <li>Python</li>
+                        <li>PySide2</li>
+                        <li>screeninfo&nbsp;&nbsp;&nbsp;<span style="color: red;">(Python library for getting the details of multiple connected screens.)</span></li>
+                        <li>CTypes&nbsp;&nbsp;&nbsp;<span style="color: red;">(Python library for calling C functions and interacting with Windows APIs.)</span></li>
+                        <li>PyAutoGUI&nbsp;&nbsp;&nbsp;<span style="color: red;">(Python library for controlling the mouse and keyboard programmatically.)</span></li>
+                        <li>Win32 Libraries&nbsp;&nbsp;&nbsp;<span style="color: red;">(Windows-specific libraries for GUI manipulation and window management.)</span></li>
+                        <li>Pathlib&nbsp;&nbsp;&nbsp;<span style="color: red;">(Python module for object-oriented file path manipulation.)</span></li>
+                        <li>JSON&nbsp;&nbsp;&nbsp;<span style="color: red;">(Used for saving and loading application settings.)</span></li>
+                        <li>Windows Registry (WinReg)&nbsp;&nbsp;&nbsp;<span style="color: red;">(Used for modifying Windows registry settings.)</span></li>
+                        <li>Subprocess&nbsp;&nbsp;&nbsp;<span style="color: red;">(Python module for running system commands and processes.)</span></li>
+                    </ul>
+                    
+                
+                    <h3>Key Features:</h3>
+                    <ul>
+                        <li> Users can input URLs and specify the screen where each URL should be opened.</li>  
+                        <li> Option to choose how the browser window will open (kiosk mode, full screen, or standard mode).</li>  
+                        <li> The application supports auto-launch at startup if the user checks the 'auto-launch' option.</li>  
+                        <li> Two additional URLs can be opened in the background without interfering with the primary windows.</li>
+                    </ul>
+                
+                    <h3>Challenges:</h3>
+                    <p>Ensuring the browser opened in kiosk mode on external screens was initially problematic. The application could open URLs on the main screen, but external screens posed difficulties in both positioning and enabling kiosk mode.</p>
+                
+                    <h3>Solution:</h3>
+                    <p>To overcome the challenge of opening URLs on external screens in kiosk mode, I utilized the 'screeninfo' library to detect connected screens and calculate their positions. Using Selenium, I opened the browser and used the window position function to move the browser to the appropriate screen. For kiosk mode, specific command-line arguments (e.g., '--kiosk' for Chromium-based browsers) were passed during browser launch. This allowed the browser to open correctly on external screens and in the required display mode.</p>
+                
+                    <h3>Outcome:</h3>
+                    <p>The app successfully enables users to open multiple URLs on different screens, select display modes, and auto-launch the app on startup, improving both convenience and productivity.</p>
+                </div>
+                
+        </section>

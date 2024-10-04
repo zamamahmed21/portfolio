@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Salary Survey </title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+    <!-- Project Details Section -->
+    <section class="sectiona">
+        <div class="container" style="text-align: left;">
+            <h2 class="section-title">Salary Survey(POWER BI)</h2>
+            <img src="images\powerBI\salary_survey_1.png" alt="Sleep Scheduler">
+            <h3>Problem Statement :</h3>
+            <p>
+
+                The **Salary Survey** project aims to provide insights into how factors like experience, education,
+                gender, and race influence employee compensation and job satisfaction across various industries and
+                regions. By analyzing this data, organizations can benchmark their compensation strategies, identify
+                diversity gaps, and understand the relationship between experience and salary growth. The goal is to
+                help companies adopt equitable pay practices and foster a more inclusive workplace.</p>
+            <h3>Technologies Used</h3>
+            <ul>
+                <li>Python&nbsp;&nbsp;&nbsp;<span style="color: red;"> (for data cleaning removing outliers and missing
+                        values)</li>
+                <li>Power BI&nbsp;&nbsp;&nbsp;<span style="color: red;"> (for creating the dashboard)</span></li>
+            </ul>
+
+            <h2 style="color: black;">Survey Analysis</h2>
+
+            <h3>Age Distribution</h3>
+            <ul>
+                <li><strong>Dominant Age Group:</strong> The largest group of participants falls within the 30-40 age
+                    range, followed by the 20-30 age group.</li>
+                <li><strong>Decline in Older Groups:</strong> There's a noticeable decrease in survey representation
+                    among individuals aged 50 and above.</li>
+            </ul>
+
+            <h3>Average Annual Salary by Age</h3>
+            <ul>
+                <li><strong>Highest Earners:</strong> Participants between 40-50 years old earn the highest average
+                    annual salary, closely followed by the 30-40 and 50-60 age groups.</li>
+                <li><strong>Younger Group Earnings:</strong> The 20-30 age group earns the lowest average salary,
+                    suggesting that experience and age may contribute to higher earning potential.</li>
+            </ul>
+
+            <h3>Racial Representation by Industry</h3>
+            <ul>
+                <li><strong>Tech Sector Imbalance:</strong> White participants dominate the "Computing or Tech"
+                    industry, with Asian individuals having the second-largest representation. Other racial groups have
+                    minimal presence in this field.</li>
+                <li><strong>Diversity Challenges:</strong> Education and Government/Public Administration sectors show
+                    some diversity, with Black and Hispanic individuals being more represented compared to the Tech
+                    sector.</li>
+            </ul>
+
+            <h3>Gender Representation by Industry</h3>
+            <ul>
+                <li><strong>Male-Dominated Fields:</strong> Men significantly outnumber women in the "Computing or Tech"
+                    industry, indicating gender imbalance.</li>
+                <li><strong>Education Sector Balance:</strong> There's a more balanced gender distribution in the
+                    Education sector, with women holding a larger share of roles.</li>
+                <li><strong>Inclusivity Gaps:</strong> Non-binary and other gender categories are minimally represented
+                    across industries, pointing to challenges in inclusivity.</li>
+            </ul>
+
+            <h3>Job Titles and Geographic Representation</h3>
+            <ul>
+                <li><strong>Broad Job Range:</strong> A wide variety of job titles are represented (11.67k), showcasing
+                    diversity in roles within the survey.</li>
+                <li><strong>Geographic Limitation:</strong> Only 13 countries are represented, indicating a lack of wide
+                    geographic diversity in the dataset.</li>
+            </ul>
+
+            <h3>Races and Currencies</h3>
+            <ul>
+                <li><strong>Diverse Backgrounds:</strong> There are 7 distinct racial categories and 9 currencies,
+                    reflecting that salary data is drawn from multiple regions and racial backgrounds.</li>
+            </ul>
+
+            <img src="images/powerBI/salary_survey_2.png" alt="Sleep Scheduler">
+
+
+
+            <h3>Average Annual Salary by Job Title</h3>
+            <ul>
+                <li><strong>Voice Actors Lead in Earnings:</strong> Voice Actors dominate the salary spectrum, earning
+                    close to 20 million—far surpassing other roles.</li>
+                <li><strong>Top Earners:</strong> Other high-paying roles include Backend Systems and Overseas
+                    Marketing, but their earnings are significantly less than Voice Actors.</li>
+                <li><strong>Lower Average for Marketing and Translation:</strong> While jobs in Marketing, Localization,
+                    and Japanese Translation are present, they earn considerably less on average.</li>
+            </ul>
+
+            <h3>Count of Race by Country</h3>
+            <ul>
+                <li><strong>U.S. Dominance:</strong> Over 70% of survey participants are from the U.S., heavily
+                    influencing the overall data.</li>
+                <li><strong>Global Representation:</strong> While countries like Canada, the UK, and Australia
+                    contribute meaningfully, others like France, Germany, and New Zealand represent a smaller portion of
+                    the dataset.</li>
+                <li><strong>Skewed Insights:</strong> This indicates that the salary data may lean toward U.S.-centric
+                    results, with limited insights from other regions.</li>
+            </ul>
+
+            <h3>Education Levels</h3>
+            <ul>
+                <li><strong>Highly Educated Participants:</strong> A significant 48.7% of respondents hold a Master’s
+                    degree, while 31.8% have a Bachelor's degree.</li>
+                <li><strong>PhDs in the Minority:</strong> Those with PhDs or professional qualifications make up a
+                    smaller percentage, indicating that the survey skews towards highly educated professionals.</li>
+                <li><strong>Specialized Jobs:</strong> This suggests that the roles surveyed tend to be specialized and
+                    technical, correlating higher education with more advanced job positions.</li>
+            </ul>
+
+            <h3>Average Salary by Industry</h3>
+            <ul>
+                <li><strong>Video Games as Top-Paying Industry:</strong> The Video Games industry boasts the highest
+                    salaries, followed by Customer Service and Commercial Business, reflecting the lucrative nature of
+                    these fields.</li>
+                <li><strong>Diverse High-Paying Sectors:</strong> Corporate Training, Environment, and Energy also offer
+                    high average salaries.</li>
+                <li><strong>Lower-Paying Fields:</strong> Conversely, industries like Geology and Multilateral
+                    Organizations show lower salary averages.</li>
+            </ul>
+
+            <h3>Count of Jobs by Industry</h3>
+            <ul>
+                <li><strong>Tech is King:</strong> The Computing or Tech industry leads in job representation, making up
+                    16.68% of the total—consistent with its reputation as a dominant sector.</li>
+                <li><strong>Other Key Sectors:</strong> Education, Nonprofits, and Government/Public Administration also
+                    have a significant presence, though they don’t rank among the highest-paying sectors.</li>
+                <li><strong>Broader Industry Insights:</strong> While a wide variety of industries are represented,
+                    fields like Healthcare, Engineering, and Finance have fewer roles compared to Tech.</li>
+            </ul>
+
+            <h3>Additional Insights</h3>
+            <ul>
+                <li><strong>Geographic Representation:</strong> The data leans heavily towards U.S. and English-speaking
+                    countries, with limited global diversity, especially from non-Western regions.</li>
+                <li><strong>Education and Salary Correlation:</strong> The large number of individuals with advanced
+                    degrees likely drives the higher salary averages seen in specialized industries.</li>
+                <li><strong>Job Market Focus:</strong> Although tech dominates, there is potential for high earnings in
+                    sectors like entertainment (Voice Acting, Video Games) and services (Customer Service,
+                    Localization).</li>
+            </ul>
+
+            <img src="images/powerBI/salary_survey_3.png" alt="Sleep Scheduler">
+
+
+            <h3>Average Annual Salary by Total Experience</h3>
+            <ul>
+                <li><strong>Career Peaks in Mid to Late Stages:</strong> Salaries tend to rise as individuals gain more
+                    experience, peaking at around 30-40 years of experience. However, there’s a slight dip in average
+                    salary for those with over 40 years of experience.</li>
+                <li><strong>Earning Potential:</strong> This suggests that the highest earning potential occurs during
+                    the mid-to-late career stages, but salaries might taper off in the later years.</li>
+            </ul>
+
+            <h3>Average Monthly Salary by Field Experience</h3>
+            <ul>
+                <li><strong>Field Expertise Drives Earnings:</strong> There’s a clear correlation between field
+                    experience and monthly salary. Those with more experience in their specific fields tend to earn
+                    higher monthly wages.</li>
+                <li><strong>Outliers with High Earnings:</strong> Interestingly, some outliers with slightly less
+                    experience still show particularly high salaries, highlighting that expertise and value can
+                    sometimes outweigh years of experience.</li>
+            </ul>
+
+            <h3>Average Annual Salary by Field Experience</h3>
+            <ul>
+                <li><strong>Rapid Growth Early in Career:</strong> The data shows that annual salaries rise sharply with
+                    10-20 years of field experience, but begin to plateau or even dip slightly after about 30 years of
+                    experience.</li>
+                <li><strong>Marginal Gains for Senior Roles:</strong> Early-career professionals experience the most
+                    significant salary growth as they gain field expertise, but salary increases become more marginal
+                    once seniority is reached.</li>
+            </ul>
+
+            <h3>Count of Race by Gender</h3>
+            <ul>
+                <li><strong>Balanced Gender Distribution:</strong> The gender breakdown among survey participants is
+                    relatively even, with men, women, and non-binary individuals each making up around 27% of the
+                    population.</li>
+                <li><strong>Room for Racial Diversity:</strong> While this gender balance may reflect inclusivity,
+                    there’s still an opportunity for greater racial diversity in the survey’s participant pool.</li>
+            </ul>
+
+            <h3>Count of Country by Gender and Work Country</h3>
+            <ul>
+                <li><strong>Global Representation:</strong> The survey shows equal representation across various
+                    countries, each contributing around 2.13% of the total data. While this suggests international
+                    diversity, it also implies that the data may have been evenly distributed rather than reflecting the
+                    actual proportions of the global workforce.</li>
+                <li><strong>Balanced Gender Spread:</strong> Gender representation is consistent across different
+                    countries, with men and women making up the majority of the workforce, followed by non-binary
+                    individuals and others.</li>
+            </ul>
+
+            <h2>Key Insights</h2>
+
+            <h3>For Businesses:</h3>
+            <ul>
+                <li><strong>Key Trends in Salary Growth:</strong>
+                    <ul>
+                        <li>Mid-career professionals (30-40 years of experience) provide the highest return on
+                            investment due to peak earning potential.</li>
+                    </ul>
+                </li>
+                <li><strong>Importance of Field-Specific Expertise:</strong>
+                    <ul>
+                        <li>Hiring and nurturing employees with deep domain knowledge significantly drives salary
+                            growth.</li>
+                    </ul>
+                </li>
+                <li><strong>Diversity and Inclusion:</strong>
+                    <ul>
+                        <li>There's a need to enhance diversity efforts, particularly in tech-related industries, to
+                            ensure balanced racial and gender representation.</li>
+                    </ul>
+                </li>
+            </ul>
+
+            <h3>For Individuals:</h3>
+            <ul>
+                <li><strong>Career Growth Dynamics:</strong>
+                    <ul>
+                        <li>The strongest career growth occurs in the first 10-20 years, especially for those gaining
+                            experience in their specific field.</li>
+                    </ul>
+                </li>
+                <li><strong>Salary Growth Trends:</strong>
+                    <ul>
+                        <li>Salary increases may slow down after reaching a certain level of seniority, indicating the
+                            need to focus on expertise building early in one’s career.</li>
+                    </ul>
+                </li>
+                <li><strong>Educational Impact:</strong>
+                    <ul>
+                        <li>Advanced education (Master’s or higher) plays a crucial role in attaining higher-paid roles,
+                            emphasizing the importance of continued education and skill development.</li>
+                    </ul>
+                </li>
+            </ul>
+
+        </div>
+    </section>
+
+</body>
+
+</html>
