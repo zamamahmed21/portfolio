@@ -28,6 +28,15 @@
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
+        <script>
+            const navToggle = document.querySelector('.nav-toggle');
+            const navLinks = document.querySelector('.nav-links');
+    
+            navToggle.addEventListener('click', () => {
+                navLinks.classList.toggle('nav-active');
+            });
+        </script>
+
     </header>
 
     <!-- Hero Section -->
